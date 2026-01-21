@@ -1,7 +1,7 @@
 println("HelloWorld") ;
 //
 /* DIVs: 2D Rectangles
-*/
+ */
 //
 fullScreen(); //dispalyWidth //displayHeight
 println(displayWidth, displayHeight);
@@ -16,7 +16,8 @@ float divHeight = appHeight * 1/2;
 //Paperfolding action of ratios, never changes
 //Order of Operations: ruler + paperfolding = correct location
 float stopX = divX + divWidth * 1/4;
-float stopY = divY + divHeight * 1/4;;
+float stopY = divY + divHeight * 1/4;
+;
 float stopWidth = divWidth * 2/4; //1/2
 float stopHeight = divHeight * 1/2;
 float mute1X1 = stopX;
@@ -27,7 +28,7 @@ float mute3X1 = mute2X2;
 float mute3Y1 = mute1Y1;
 float mute4X2 = mute1X1; //Cascading Varibles v one-reference
 float mute4Y2 = mute2Y2;
-float playX1 = divX + divWidth * 1/4; 
+float playX1 = divX + divWidth * 1/4;
 float playY1 = divY + divHeight * 1/4;
 float playX2 = divX + divWidth * 3/4;
 float playY2 = divY + divHeight * 1/2;
